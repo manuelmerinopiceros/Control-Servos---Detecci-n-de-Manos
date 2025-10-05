@@ -27,7 +27,7 @@ while True:
     if not success:
         continue
 
-    # ✅ Versión antigua de cvzone
+    #Versión antigua de cvzone
     img = detector.findHands(img)  # Dibuja la mano en img
     lmList, bbox = detector.findPosition(img)  # Obtiene landmarks
 
